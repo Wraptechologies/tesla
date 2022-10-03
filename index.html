@@ -53,6 +53,7 @@
         console.log(`Latitude : ${crd.latitude}`);
         console.log(`Longitude: ${crd.longitude}`);
         console.log(`More or less ${crd.accuracy} meters.`);
+        showPosition(pos);
       }
 
       function error(err) {
@@ -79,7 +80,7 @@
   }
   function errorCallback() {
     console.log("Could not find location");
-  }
+  }*/
 
     function showPosition(position) {
       console.log("showPosition")
@@ -101,6 +102,6 @@
               console.log("Post successfully created!") 
           }
       }
-    }*/
+    }
 </script>
 </html>
